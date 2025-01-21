@@ -1,2 +1,2 @@
-c-higher-order-function
-=======================
+c-hoc-memoized-factorial
+========================
