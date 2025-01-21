@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 
-project("c-higher-order-function" C)
+project("c-hoc-memoized-factorial" C)
 
 add_executable(${PROJECT_NAME}
     "src/main.c"
