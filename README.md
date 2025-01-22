@@ -50,8 +50,8 @@ c-hoc-memoized-factorial
         return fptr(a, b);
       }
       ```
-      - This kind off solved the problem. BUT
-        - if the target function called itself inside, we cannot modify the target function code inside
+      - This kind of solved the problem. BUT
+        - if the target function called itself inside (aka recursion), we cannot modify the target function code inside
           - in [./src/main.c](./src/main.c) we have to do `hoc(&factorial, n - 1);`
             - And this means hoc is not 100% working in C, because we expected not having to modify the target function code
             - Why it works in JavaScript?
